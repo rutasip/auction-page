@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
     }
   },
   textField: {
-    marginLeft: theme.spacing(1),
+    marginLeft: theme.spacing(2),
     marginRight: theme.spacing(1),
     marginTop: 3,
     display: 'none',
@@ -62,7 +62,8 @@ const useStyles = makeStyles(theme => ({
     }
   },
   iconButton: {
-    padding: 8
+    padding: 8,
+    paddingRight: 10
   }
 }));
 

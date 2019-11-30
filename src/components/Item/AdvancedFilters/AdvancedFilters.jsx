@@ -15,7 +15,8 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     minWidth: 120,
     borderBottom: '1px solid #e4e4e4',
-    borderRight: '1px solid #e4e4e4'
+    borderRight: '1px solid #e4e4e4',
+    backgroundColor: '#fff'
   }
 }));
 

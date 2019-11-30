@@ -7,14 +7,12 @@ const ItemsPage = () => {
   return (
     <React.Fragment>
       <Grid container spacing={0} justify="center">
-        <Grid item md={1}></Grid>
-        <Grid item md={4}>
+        <Grid item md={5}>
           <ImageCarousel />
         </Grid>
-        <Grid item md={6}>
+        <Grid item md={7}>
           <ItemDescription />
         </Grid>
-        <Grid item md={1}></Grid>
       </Grid>
     </React.Fragment>
   );

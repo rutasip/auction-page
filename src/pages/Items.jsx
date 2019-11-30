@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
       maxWidth: '20%'
     },
     '@media (min-width: 1450px)': {
-      maxWidth: '18%'
+      maxWidth: '20%'
     }
   },
   itemList: {
@@ -43,7 +43,7 @@ const useStyles = makeStyles(theme => ({
       maxWidth: '80%'
     },
     '@media (min-width: 1450px)': {
-      maxWidth: '82%'
+      maxWidth: '80%'
     }
   }
 }));

@@ -11,12 +11,6 @@ const theme = createMuiTheme({
   palette: {
     primary: { main: '#0B409C' }
   },
-  breakpoints: {
-    values: {
-      sm: 600,
-      md: 1060
-    }
-  },
   overrides: {
     MuiTypography: {
       body1: {
@@ -47,6 +41,7 @@ const theme = createMuiTheme({
     },
     MuiButton: {
       root: {
+        color: 'inherit',
         textTransform: 'capitalize',
         '&:hover': {
           backgroundColor: 'inherit',
@@ -103,6 +98,18 @@ const theme = createMuiTheme({
       root: {
         paddingTop: '4px',
         paddingBottom: '4px'
+      }
+    },
+    PrivateValueLabel: {
+      label: {
+        color: '#484848'
+      },
+      circle: {
+        height: 42,
+        backgroundColor: 'transparent'
+      },
+      offset: {
+        fontSize: '0.85rem'
       }
     },
     MuiCardActionArea: {

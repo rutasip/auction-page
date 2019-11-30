@@ -31,11 +31,11 @@ const imageSteps = [
 
 const useStyles = makeStyles(theme => ({
   root: {
-    maxWidth: 420,
+    maxWidth: 750,
     flexGrow: 1,
-    marginTop: 30,
+    marginTop: 26,
     position: 'relative',
-    marginRight: theme.spacing(3)
+    marginRight: theme.spacing(5)
   },
   arrowButton: {
     padding: '50px 0',
@@ -77,16 +77,19 @@ const useStyles = makeStyles(theme => ({
     display: 'block',
     overflow: 'hidden',
     width: '100%',
-    maxWidth: 420,
+    maxWidth: 750,
     marginBottom: '10px',
     borderRadius: 4
   },
+  thumbContainer: {
+    width: '100%'
+  },
   thumbnail: {
-    padding: '0 4px'
+    padding: '0 2px'
   },
   thumbnailImg: {
     borderRadius: 4,
-    height: 74
+    height: 69
   }
 }));
 
@@ -158,7 +161,13 @@ function ImageSlider() {
           )}
         </Button>
       </Grid>
-      <Grid container spacing={0} justify="center" alignItems="center">
+      <Grid
+        container
+        spacing={0}
+        justify="center"
+        alignItems="center"
+        className={classes.thumbContainer}
+      >
         {imageSteps.map((step, index) => (
           <div key={step.label}>
             <Grid item xs={3}>

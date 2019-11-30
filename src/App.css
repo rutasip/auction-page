@@ -1,16 +1,17 @@
 .main-content {
-  margin: 7rem 0.5rem;
+  background-color: #f9f9f9;
 }
 
 @media only screen and (min-width: 601px) {
   .main-content {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
 @media only screen and (min-width: 1060px) {
   .main-content {
-    margin-top: 70px;
+    margin-top: 65px;
+    padding-bottom: 65px;
   }
 }
