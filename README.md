@@ -1,7 +1,7 @@
 Common website with 3auris (https://github.com/3auris)
 
 I am responsible for UX/UI and frontend coding (most part).\
-Auris is responsible for backend.
+Auris is responsible for backend and architecture.
 
 **Live:** https://mybid.lt \
 **Frontend:** https://github.com/3auris/auction \
