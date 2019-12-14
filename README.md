@@ -4,7 +4,7 @@ I am responsible for UX/UI and frontend coding (most part).\
 Auris is responsible for backend and architecture.
 
 **Live:** https://mybid.lt \
-**Frontend:** https://github.com/3auris/auction \
+**Frontend** (updated and original version): https://github.com/3auris/auction \
 **Backend:** https://github.com/3auris/auction-server
 
 **What is it for?**\
